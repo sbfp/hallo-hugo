@@ -37,6 +37,16 @@ h3 {
     font-size: 2rem;
     font-weight: normal;
 }
+h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+h5 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0rem;
+}
+
 
 @media screen and (max-width: $break-large) {
     h1 {
@@ -59,10 +69,10 @@ img.portrait {
     max-height: 300px;
 }
 
-.experience-container {
-    margin-bottom: 3rem;
+.experience {
+    margin-bottom: 2rem;
 }
-.experience-focus {
+.experience__focus {
     list-style: circle outside none;
 }
 .experience__date {
@@ -76,8 +86,29 @@ img.portrait {
 .experience__company {
     font-size: 0.8rem;
     font-weight: 500;
+    color: #8A6E8A;
 }
 .experience__summary {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-style: italic;
+}
+.experience__project {
+    line-height: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.experience__project__header {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+
+}
+.experience__project__title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1rem;
+}
+.experience__project__description {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1rem;
 }
